@@ -25,3 +25,7 @@ replay_pid*
 
 # prevent upload DS_Store
 .DS_Store
+
+.idea
+.Design-Patterns.iml
+.out
