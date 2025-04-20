@@ -1,5 +1,7 @@
 package AdapterDesignPattern.AudioPlayerAndMediaPlayer;
 
-public interface AdvancedMediaPlayer {
-    void playMp4(String fileName);
+public class AdvancedMediaPlayer {
+    public void playMp4(String filename) {
+        System.out.println("Playing mp4 file: " + filename);
+    }
 }

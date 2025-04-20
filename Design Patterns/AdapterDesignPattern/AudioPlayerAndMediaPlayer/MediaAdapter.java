@@ -2,15 +2,14 @@ package AdapterDesignPattern.AudioPlayerAndMediaPlayer;
 
 public class MediaAdapter implements MediaPlayer {
     private AdvancedMediaPlayer advancedPlayer;
-    public MediaAdapter(String fileType){
-        if (fileType.equalsIgnoreCase("mp4")){
-            advancedPlayer = new Mp4Player();
-        }
+
+    public MediaAdapter(AdvancedMediaPlayer advancedPlayer) {
+        this.advancedPlayer = advancedPlayer;
     }
+
     @Override
-    public void play(String fileType, String fileName) {
-        if (fileType.equalsIgnoreCase("mp4")){
-            advancedPlayer.playMp4(fileName);
-        }
+    public void play(String filename) {
+        System.out.println("Converting to mp4...");
+        advancedPlayer.playMp4(filename);
     }
 }
