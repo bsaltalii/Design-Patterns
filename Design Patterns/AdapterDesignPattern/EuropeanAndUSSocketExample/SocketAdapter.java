@@ -2,7 +2,6 @@ package AdapterDesignPattern.EuropeanAndUSSocketExample;
 
 public class SocketAdapter {
     EuropeanSocket socket;
-
     public SocketAdapter(EuropeanSocket europeanSocket){
         this.socket = europeanSocket;
     }
