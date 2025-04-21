@@ -1,6 +1,5 @@
 package BuilderDesignPattern.BreakfastExample;
 public class Director{
-
     private BreakfastBuilder breakfastBuilder;
 
     public Director(BreakfastBuilder breakfastBuilder){
@@ -20,5 +19,4 @@ public class Director{
         breakfastBuilder.peanutButter();
         return breakfastBuilder.build();
     }
-
 }
