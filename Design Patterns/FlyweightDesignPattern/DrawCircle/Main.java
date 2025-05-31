@@ -1,4 +1,5 @@
 package FlyweightDesignPattern.DrawCircle;
+
 public class Main {
     public static void main(String[] args) {
         String[] colors = {"Red","Blue","Red","Green"};
