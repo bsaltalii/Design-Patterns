@@ -1,4 +1,4 @@
-package FlyweightDesingPattern.TreeExample;
+package FlyweightDesignPattern.TreeExample;
 class Tree {
     private final int x, y;
     private final TreeType type;

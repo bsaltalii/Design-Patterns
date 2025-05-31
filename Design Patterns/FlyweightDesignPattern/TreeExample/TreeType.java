@@ -1,4 +1,4 @@
-package FlyweightDesingPattern.TreeExample;
+package FlyweightDesignPattern.TreeExample;
 class TreeType {
     private final String name;
     private final String color;

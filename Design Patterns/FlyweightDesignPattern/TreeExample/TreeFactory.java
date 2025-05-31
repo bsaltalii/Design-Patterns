@@ -1,4 +1,4 @@
-package FlyweightDesingPattern.TreeExample;
+package FlyweightDesignPattern.TreeExample;
 import java.util.HashMap;
 
 class TreeFactory {

@@ -1,4 +1,4 @@
-package FlyweightDesingPattern.TreeExample;
+package FlyweightDesignPattern.TreeExample;
 public class Main {
     public static void main(String[] args) {
 

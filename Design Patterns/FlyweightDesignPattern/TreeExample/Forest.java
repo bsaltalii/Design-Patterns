@@ -1,4 +1,4 @@
-package FlyweightDesingPattern.TreeExample;
+package FlyweightDesignPattern.TreeExample;
 import java.util.ArrayList;
 class Forest {
     private ArrayList<Tree> trees = new ArrayList<>();
