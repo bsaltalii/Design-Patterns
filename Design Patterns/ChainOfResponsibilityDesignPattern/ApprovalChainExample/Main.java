@@ -2,9 +2,9 @@ package ChainOfResponsibilityDesignPattern.ApprovalChainExample;
 
 import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Approver;
 import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Director;
-import ChainOfResponsibilityDesignPattern.Manager;
-import ChainOfResponsibilityDesignPattern.President;
-import ChainOfResponsibilityDesignPattern.VicePresident;
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Manager;
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.President;
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.VicePresident;
 
 public class Main {
     public static void main(String[] args) {
