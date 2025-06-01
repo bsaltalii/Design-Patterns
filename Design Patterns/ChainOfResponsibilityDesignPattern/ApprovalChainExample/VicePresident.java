@@ -1,4 +1,6 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.ApprovalChainExample;
+
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Approver;
 
 class VicePresident extends Approver {
     protected boolean canApprove(double amount) {

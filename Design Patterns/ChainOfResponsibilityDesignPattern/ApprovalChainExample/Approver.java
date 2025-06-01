@@ -1,4 +1,4 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.ApprovalChainExample;
 
 abstract class Approver {
     protected Approver next;

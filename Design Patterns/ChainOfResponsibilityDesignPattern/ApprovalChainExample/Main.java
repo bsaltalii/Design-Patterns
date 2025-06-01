@@ -1,4 +1,10 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.ApprovalChainExample;
+
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Approver;
+import ChainOfResponsibilityDesignPattern.ApprovalChainExample.Director;
+import ChainOfResponsibilityDesignPattern.Manager;
+import ChainOfResponsibilityDesignPattern.President;
+import ChainOfResponsibilityDesignPattern.VicePresident;
 
 public class Main {
     public static void main(String[] args) {
